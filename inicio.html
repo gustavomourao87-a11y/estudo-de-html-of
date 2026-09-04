@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <title>SOBRE MIM</title>
+    </head>
+    <body>
+    <header>
+        <h1>Gustavo Teixeira Mourão</h1>
+    </header>
+     <nav>
+        <a href="sobre.html">Sobre Mim</a>
+        <a href="tabela.html">Tabela de Preços</a>
+        <a href="video.html">escute creep</a>
+        <a href="audio.html">escute creep denovo kkk</a>
+    </nav>
+    <main>
+        <p>Olá, me chamo Gustavo e sou um aspirante a dev, estou estudando <mark>HTML</mark>.</p>
+        <h2>MEUS HOBBIES</h2>
+        <ul>
+            <li>Basquete</li>
+            <li>Video Game</li>
+            <li>Anime</li>
+        </ul>
+        <img src="images/koby.jpg" alt="koby bryant, melhores lances dele.">
+        <p>
+            <a href="https://www.youtube.com/watch?v=OU-oPARabVU">
+                Video do koby.
+            </a>
+            </p>
+<form>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" placeholder="Digite seu nome" id="nome" name="nome" required>
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="Digite seu E-mail" id="email" name="email" required>
+    <label for="senha">Senha:</label>
+    <input type="password" placeholder="Digite sua Senha" id="senha" name="senha" required>
+    <label for="idade">Idade:</label>
+    <input type="number" placeholder="Digite sua idade" id="idade" name="idade">
+    <label for="data-nascimento">Data de Nascimento</label>
+    <input type="date" id="data-nascimento" name="data-nascimento">
+    </fieldset>
+    <fieldset>
+        <legend>Preferências</legend>
+    <label for="esporte">Qual o seu esporte favorito?</label>
+    <select id="esporte" name="esporte">
+        <option>Basquete</option>
+        <option>Futebol</option>
+        <option>Vôlei</option>
+        <option>Ping-Pong</option>
+    </select>
+    <p>
+        <strong>
+            Quais linguagens você está estudando?
+        </strong>
+    </p>
+    <label for="html">HTML</label>
+    <input type="checkbox" value="html" id="html" name="linguagens">
+    <label for="css">CSS</label>
+    <input type="checkbox" value="css" id="css" name="linguagens">
+    <label for="javascript">JavaScript</label>
+    <input type="checkbox" value="javascript" id="javascript" name="linguagens">
+    <label for="python">Python</label>
+    <input type="checkbox" value="python" id="python" name="linguagens">
+    <p>
+        <strong>
+            Qual o seu nivel de conhecimento em html?
+        </strong>
+    </p> 
+
+    <label for="iniciante">Iniciante</label>
+    <input type="radio" value="iniciante" id="iniciante" name="nivel-html">
+    <label for="basico">Básico</label>
+    <input type="radio" value="basico" id="basico" name="nivel-html">
+    <label for="intermediario">intermediário</label>
+    <input type="radio" value="intermediario" id="intermediario" name="nivel-html">
+    <label for="avancado">Avançado</label>
+    <input type="radio" value="avancado" id="avancado" name="nivel-html">
+    </fieldset>
+    <fieldset>
+        <legend>Avaliação</legend>
+      <label for="mensagem">Digite sua mensagem</label>
+    <textarea placeholder="Nos conte o que achou do site" id="mensagem" name="mensagem" required></textarea>
+    </fieldset>
+    <button type="submit">Cadastrar</button>
+</form>
+</main>
+</body>
+</html>
